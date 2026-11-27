@@ -1,21 +1,37 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>My Academic Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="A personal marriage introduction.">
+<meta name="color-scheme" content="light dark">
+<title>Vivah | Marriage Introduction</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="biodata.config.js"></script>
+<script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Welcome to my website</h1>
-
-    <h2>About Me</h2>
-    <p>PhD Scholar, Aerospace Engineering, IIT Madras.</p>
-
-    <h2>Research Interests</h2>
-    <ul>
-        <li>Computational Fluid Dynamics</li>
-        <li>Meshless Numerical Methods</li>
-        <li>Compressible Flows</li>
-        <li>Multiphase and Granular Flows</li>
-        <li>Shock Wave Dynamics</li>
-    </ul>
-</body>
-</html>
+<a class="skip" href="#main">Skip to profile</a>
+<header class="topbar"><div class="nav-wrap">
+<a class="brand" href="#main"><span class="brand-mark" aria-hidden="true">❋</span><span><strong>VIVAH</strong><small data-i18n="brandSub">A personal introduction</small></span></a>
+<nav class="tools" aria-label="Website controls">
+<button id="language" type="button" aria-label="Switch language">हिंदी</button>
+<button id="theme" type="button" aria-label="Toggle dark mode">☾ <span data-i18n="theme">Theme</span></button>
+<button id="layout" type="button" aria-pressed="false"><span aria-hidden="true">▤</span> <span data-i18n="layout">List</span></button>
+<button id="print" type="button"><span aria-hidden="true">⎙</span> <span data-i18n="print">Print / PDF</span></button>
+<button id="edit" class="primary" type="button"><span aria-hidden="true">✎</span> <span data-i18n="edit">Edit profile</span></button>
+</nav></div></header>
+<main id="main" class="wrap">
+<div id="editbar" class="editbar" hidden><div><strong data-i18n="editTitle">You are editing a local draft</strong><small data-i18n="editHint">Changes are not published. Download the configuration to update your GitHub website.</small></div><div class="edit-actions"><button id="save" data-i18n="save">Save on device</button><button id="download" data-i18n="download">Download config</button><button id="discard" data-i18n="discard">Discard edits</button><button id="done" class="primary" data-i18n="done">Done</button></div></div>
+<div id="status" role="status" aria-live="polite" class="status" hidden></div>
+<div class="intro-line"><span></span><p data-i18n="intro">MARRIAGE INTRODUCTION</p><span></span></div>
+<section id="hero" class="hero" aria-label="Profile overview"></section>
+<div class="section-heading"><div><p class="eyebrow" data-i18n="chapter">THE DETAILS</p><h2 data-i18n="profile">A closer look</h2></div><label class="toggle"><input id="hideEmpty" type="checkbox"> <span data-i18n="hideEmpty">Hide empty entries</span></label></div>
+<nav id="jump" class="jump" aria-label="Profile sections"></nav>
+<div id="cards" class="bento"></div>
+<footer><span class="footer-flower" aria-hidden="true">❋</span><p data-i18n="footer">A meaningful beginning, built on understanding.</p><small data-i18n="privacy">Please share personal information thoughtfully.</small></footer>
+</main>
+<dialog id="lightbox" aria-label="Photo viewer"><div class="lightbox-top"><span id="photoCount"></span><button id="closePhoto" aria-label="Close photo viewer">✕</button></div><div class="lightbox-body"><button id="prevPhoto" aria-label="Previous photo">‹</button><img id="bigPhoto" alt="Profile photograph"><button id="nextPhoto" aria-label="Next photo">›</button></div><p id="photoCaption"></p></dialog>
+<noscript>This template needs JavaScript to display and edit the profile.</noscript>
+</body></html>
